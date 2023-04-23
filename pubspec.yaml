@@ -1,0 +1,44 @@
+name: demos
+description: This Application Made By Nguyen Dang
+version: 1.0.0+1
+environment:
+  sdk: '>=2.19.5 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  connectivity_plus: ^3.0.4
+  cached_network_image: ^3.2.3
+  intl: ^0.18.0
+  shared_preferences: ^2.1.0
+  flutter_svg: ^2.0.5
+  rive: ^0.10.4
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.2.2
+  google_sign_in: ^6.1.0
+  cloud_firestore: ^4.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+    - assets/avaters/
+    - assets/Backgrounds/
+    - assets/icons/
+    - assets/RiveAssets/
+  fonts:
+    - family: Intel
+      fonts:
+        - asset: assets/Fonts/Inter-Regular.ttf
+        - asset: assets/Fonts/Inter-SemiBold.ttf
+          weight: 600
+    - family: Poppins
+      fonts:
+        - asset: assets/Fonts/Poppins-Bold.ttf
+          weight: 700
